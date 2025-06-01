@@ -1,6 +1,7 @@
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Main {
+	final static int[] NUMBER_OF_THREADS = {1, 2, 4, 8, 16, 32};
 	public static void main(String[] args) {
 		int[] arr = new int[1_000_000];
 		populateArrayWithRandomIntegers(arr);
